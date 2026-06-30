@@ -8,6 +8,7 @@ import screens.SplashScreen;
 public class SplashTests extends AppiumConfig {
     @Test
     public void splashPositiveTest(){
-        Assert.assertTrue(new SplashScreen(driver).validateVersionApp());
+        Assert.assertTrue
+                (new SplashScreen(driver).validateVersionApp());
     }
 }
